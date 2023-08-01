@@ -18,9 +18,6 @@ def check_psi(focus, range):
         print(f"Error")
 ...
 def analyze_file(filepath):
-    # Load the excel data
-    # For now, just read the file and check its psi values
-    # You might want to expand this further based on the actual analysis
     data = pd.read_excel(filepath)  # Use Pandas to read the Excel file
     feedback = ""
 
